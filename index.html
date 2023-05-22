@@ -17,24 +17,64 @@
        body{
         background-color: aqua;
        }
+       .site-navigation{
+        display: flex;
+        justify-content: center;
+       }
+       .nav{
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+       }
+       .submit{
+        color: blue;
+        height: 30px;
+        border: 0;
+       }
     </style>
 </head> 
 <header>
-    <h1>PORTFOLIO</h1>
+    <h1 id="header">PORTFOLIO</h1>
+    <nav class="navigation">
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 <body>
+    <h3>Contact Me</h3>
     <form>
-        <label for="your_name">Your Name</label>
+        <label for="about">About</label>
         <input type="text" id="your_name"><br>
         <br>
-        <label for="your_email">Your Email</label>
+        <label for="work">Work</label>
         <input type="text" id="your_email"><br>
         <br>
-        <label for="phone_number">Phone Number</label>
-        <input type="text" id="phone_number"><br>
+        <label for="resume">Resume</label>
+        <input type="text" id="desc"><br>
         <br>
-
+        <label for="contact">Contact</label>
+        <input type="text" id="desc"><br>
+        <br>
+        <div>
+            <button class="submit">Send Message</button>
+        </div>
+        <br>
+        <br>
     </form>
+        <audio controls>
+            <source src="media/syt.mp3" type="audio/mp3">
+            <!--audio mp3-->
+        </audio>
+        <br>
+        <br>
+        <video width="300" height="240" controls>
+            <source src="media/syt.mp4" type="video/mp4">
+        </video>
     <br>
     <footer>
         <h5><i>Copyright 2023. All Right Reserved.</i></h5>
