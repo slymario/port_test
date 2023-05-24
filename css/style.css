@@ -1,0 +1,33 @@
+ #header{
+    text-align: center;
+    color: maroon;
+}
+footer{
+text-align: center;
+color: red;
+}
+body{
+background-color: royalblue;
+}
+.site-navigation{
+display: flex;
+justify-content: center;
+}
+.nav{
+display: flex;
+gap: 35px;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+}
+.submit{
+color: maroon;
+height: 30px;
+border: 0;
+}
+h2 {
+text-align: center;
+color: maroon;
+}
+div{
+    font-family: 'Roboto', sans-serif;
+}
